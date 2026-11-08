@@ -1,0 +1,14 @@
+.list {
+  /* setting display to flex [element next to element in row] */
+  display: flex;
+  justify-content: right;
+  /* disabling default list style */
+  list-style: none;
+
+  /* setting distance between items */
+  gap: 10px;
+
+  padding: 10px;
+
+  /* border around nav */
+}

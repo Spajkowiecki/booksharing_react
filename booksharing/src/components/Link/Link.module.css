@@ -1,0 +1,21 @@
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: gold;
+  animation: linkBlink 500ms ease-in-out infinite;
+}
+
+@keyframes linkBlink {
+  0% {
+    color: white;
+  }
+  50% {
+    color: gold;
+  }
+  100% {
+    color: white;
+  }
+}

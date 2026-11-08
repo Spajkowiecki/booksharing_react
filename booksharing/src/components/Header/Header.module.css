@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+
+  font-size: 18px;
+
+  background: #27272b;
+  background: linear-gradient(
+    53deg,
+    rgba(39, 39, 43, 1) 0%,
+    rgba(21, 21, 38, 1) 36%,
+    rgba(16, 41, 69, 1) 87%
+  );
+
+  padding: 10px;
+
+  border-bottom: 1px solid gold;
+}

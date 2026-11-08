@@ -1,0 +1,15 @@
+.wrapper {
+  background: #383842;
+  background: linear-gradient(
+    52deg,
+    rgba(56, 56, 66, 1) 0%,
+    rgba(39, 39, 77, 1) 36%,
+    rgba(18, 58, 105, 1) 87%
+  );
+
+  height: 93vh;
+
+  padding: 10px;
+
+  font-size: 40px;
+}
