@@ -1,0 +1,79 @@
+// ==========================================
+// PALETA KOLORÓW: TRYB JASNY (LIGHT)
+// ==========================================
+
+/* Kolory główne */
+$color-primary-light: #1d64f2; // Główne przyciski ("Zaloguj się"), aktywny link w menu, linki ("Nie pamiętasz hasła?", "Zarejestruj się"), logo "Flow", ikony zalet
+$color-primary-dark-light: #1551d0; // Stan :hover głównych przycisków i linków
+$color-primary-subtle-light: #bed3f5; // Jasny odcień pomocniczy do wyróżnień
+
+/* Granaty i odcienie niebieskiego */
+$color-navy-light: #0e2343; // Ciemne akcenty i nagłówki w jasnym motywie
+$color-navy-muted-light: #273a66; // Dodatkowe odcienie niebieskiego w interfejsie
+$color-blue-light: #e0edff; // Tło kółek pod ikonami zalet, tło przycisku trybu ciemnego (księżyc)
+$color-blue-illustration-light: #2b5cb0; // Grafiki książek w tle, ozdobne liście i gwiazdki
+
+/* Tła */
+$color-bg-main-light: #f0f4fc; // Tło strony, tło sekcji hero
+$color-bg-card-light: #ffffff; // Tło karty logowania, tło paska nawigacji, tło przycisków OAuth (Google/GitHub)
+$color-surface-light: #ffffff; // Podstawowa powierzchnia elementów
+$color-section-light: #e6ebf8; // Tło sekcji pomocniczych
+
+/* Teksty */
+$color-text-light: #101525; // Główny tekst w jasnym motywie
+$color-text-main-light: #1e293b; // Nagłówki (h1, h2), logo "Book", linki w menu, tekst przycisków OAuth
+$color-text-muted-light: #64748b; // Podtytuły, opisy, placeholder w inputach, tekst "lub"
+$color-text-secondary-light: #273a66; // Tekst drugorzędny
+
+/* Obramowania i Formularze */
+$color-border-light: #dce4f3; // Ogólne obramowania sekcji i elementów
+$color-border-card-light: #d3e1f5; // Obramowanie karty logowania, obramowanie okna widoku
+$color-input-bg-light: #f8fafc; // Tło pól formularza (input e-mail, hasło)
+$color-input-border-light: #cbd5e1; // Obramowanie inputów, obramowanie przycisków Google/GitHub, obramowanie checkboxa, linie przy "lub"
+
+/* Logo i Akcenty graficzne */
+$color-book-brown-light: #653f2e; // Brązowe elementy okładki w logo
+$color-accent-brown-light: #8b4513; // Okładka książki w logo, okładka książki nad formularzem
+$color-gold-light: #daab7b; // Złote detale i akcenty
+$color-ribbon-light: #b52b32; // Kolor wstążki / zakładek
+$color-accent-orange-light: #d97706; // Krzyżyk na okładkach książek, detale na stosie książek
+
+// ==========================================
+// PALETA KOLORÓW: TRYB CIEMNY (DARK)
+// ==========================================
+
+/* Kolory główne */
+$color-primary-dark: #1877f2; // Główne przyciski w trybie ciemnym, akcenty
+$color-primary-dark-dark: #1a4eaa; // Głęboki odcień akcentu dla ciemnego motyvu
+$color-primary-subtle-dark: #273a66; // Ciemniejszy wariant pomocniczy
+
+/* Granaty i odcienie niebieskiego */
+$color-navy-dark: #0e2343; // Główne ciemne tło / elementy konstrukcyjne
+$color-navy-muted-dark: #273a66; // Podbicia kolorystyczne w ciemnym motywie
+$color-blue-light-dark: #1a2c4e; // Przyciemniony odpowiednik tła kółek i elementów
+$color-blue-illustration-dark: #3b6fc2; // Grafiki książek dostosowane do ciemnego tła
+
+/* Tła */
+$color-bg-main-dark: #101525; // Główne ciemne tło strony
+$color-bg-card-dark: #1e293b; // Tło kart, paneli logowania i paska nawigacji w ciemnym motywie
+$color-surface-dark: #161e31; // Powierzchnie kontenerów i modułów
+$color-section-dark: #131b2e; // Tło sekcji w trybie ciemnym
+
+/* Teksty */
+$color-text-dark: #f5f5f5; // Główny jasny tekst w trybie ciemnym
+$color-text-main-dark: #f8fafc; // Nagłówki (h1, h2), logo, linki w ciemnym motywie
+$color-text-muted-dark: #94a3b8; // Podtytuły, opisy, placeholdery w ciemnym motywie
+$color-text-secondary-dark: #cbd5e1; // Tekst drugorzędny w trybie ciemnym
+
+/* Obramowania i Formularze */
+$color-border-dark: #273a66; // Ogólne obramowania w trybie ciemnym
+$color-border-card-dark: #2c3e6b; // Obramowanie karty logowania i kontenerów
+$color-input-bg-dark: #131b2e; // Tło pól formularza w trybie ciemnym
+$color-input-border-dark: #334775; // Obramowanie inputów i przycisków w ciemnym motywie
+
+/* Logo i Akcenty graficzne */
+$color-book-brown-dark: #8b5a45; // Jaśniejszy odcień brązu na ciemnym tle
+$color-accent-brown-dark: #a0522d; // Okładka książki widoczna w ciemnym motywie
+$color-gold-dark: #ebd0b0; // Złote akcenty dostosowane do ciemnego tła
+$color-ribbon-dark: #d93840; // Wstążka / zakładka w ciemnym motywie
+$color-accent-orange-dark: #f59e0b; // Pomarańczowe akcenty i detale na ciemnym tle

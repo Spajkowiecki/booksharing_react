@@ -1,0 +1,79 @@
+@use "../../../variables" as *;
+
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 20px 10px 20px;
+
+  background-color: $color-blue-light;
+
+  .nav {
+    display: flex;
+
+    gap: 1.2rem;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    .link {
+      font-weight: 700;
+      color: $color-text-main-light;
+      svg {
+        position: relative;
+        bottom: -2px;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        color: $color-primary-light;
+
+        svg {
+          fill: $color-primary-light;
+        }
+      }
+    }
+  }
+  .loginBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: $color-primary-light;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+
+    &:hover {
+      background-color: $color-primary-dark-light;
+    }
+  }
+
+  .rightSide {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .darkMode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 2px 3px 2px 3px;
+    border-radius: 20px;
+
+    background-color: $color-primary-subtle-light;
+    button {
+      position: relative;
+      bottom: -1px;
+      background-color: transparent;
+      border: none;
+    }
+  }
+}

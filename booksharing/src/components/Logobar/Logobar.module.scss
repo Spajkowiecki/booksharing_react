@@ -1,0 +1,17 @@
+@use "../../_variables.scss" as *;
+
+.container {
+  display: flex;
+  gap: 10px;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.logoText {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $color-text-light;
+  span {
+    color: $color-primary-light;
+  }
+}

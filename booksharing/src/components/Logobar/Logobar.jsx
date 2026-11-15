@@ -1,22 +1,16 @@
-import PropTypes from "prop-types";
+import MyImage from "../MyImage/MyImage";
+import styles from "../Logobar/Logobar.module.scss";
+import { Link } from "react-router-dom";
 
-import styles from "./Logobar.module.css";
-
-function Logobar({ name, src }) {
+export default function Logobar() {
   return (
     <>
-      <div className={styles.logobar}>
-        <img className={styles.img} src={src} alt="its a logo of site" />
-
-        <span className={styles.name}>{name}</span>
-      </div>
+      <Link className={styles.container} to="/">
+        <MyImage width="50" height="50" name="bookIcon_light" />
+        <span className={styles.logoText}>
+          Book<span>Flow</span>
+        </span>
+      </Link>
     </>
   );
 }
-
-Logobar.propTypes = {
-  name: PropTypes.string,
-  src: PropTypes.string,
-};
-
-export default Logobar;
