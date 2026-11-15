@@ -4,6 +4,7 @@ import MyIcon from "../../MyIcon/MyIcon";
 import styles from "../HeaderPublic/HeaderPublic.module.scss";
 import { Link } from "react-router-dom";
 import MyImage from "../../MyImage/MyImage";
+import ThemeToggle from "../../ThemeToggle/ThemeToggle";
 
 function HeaderPublic() {
   return (
@@ -36,21 +37,9 @@ function HeaderPublic() {
           </Link>
         </nav>
         <div className={styles.rightSide}>
-          <div className={styles.darkMode}>
-            <button
-              onClick={() => {
-                console.log("Zmiana na ciemny styl");
-              }}
-            >
-              <MyImage width="35" height="35" name="moon" />
-            </button>
-            <button>
-              <MyImage width="35" height="35" name="sun" />
-            </button>
-          </div>
-
+          <ThemeToggle />
           <button className={styles.loginBtn}>
-            <MyIcon name="user" /> Login
+            <MyIcon name="user" /> Log in
           </button>
         </div>
       </div>

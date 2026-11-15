@@ -1,13 +1,178 @@
+@use "../../_variables.scss" as *;
+
 .container {
   display: flex;
   width: 100%;
   height: 92.6vh;
 
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 20px 10px 20px;
+
   background-image:
-    linear-gradient(rgba(95, 145, 245, 0.4), rgba(98, 147, 246, 0.4)),
+    linear-gradient(rgba(16, 40, 93, 0.512), rgba(32, 97, 227, 0.536)),
     url("/assets/images/loginPageBG.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.leftSide {
+  display: flex;
+  flex-flow: column nowrap;
+  align-self: start;
+  padding-top: 10rem;
+  padding-left: 5rem;
+}
+
+.heroTitle {
+  font-size: 4.3rem;
+  font-weight: 700;
+  color: white;
+}
+
+.heroSubtitle {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.heroText {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.divider {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 5rem;
+  border: 3px solid $color-primary-dark;
+}
+
+.loginForm {
+  display: flex;
+  flex-flow: column nowrap;
+
+  min-width: 400px;
+
+  gap: 15px;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px;
+  padding: 20px;
+  background-color: $color-bg-card-light;
+  .heading {
+    display: flex;
+    flex-flow: column nowrap;
+
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 27px;
+    font-weight: 700;
+  }
+
+  .links {
+    color: $color-primary-light;
+    font-weight: 600;
+  }
+}
+
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+
+  width: 100%;
+
+  gap: 10px;
+
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px 20px 10px 44px;
+    border-radius: 10px;
+
+    flex: 1;
+
+    font-size: 16px;
+
+    background-color: $color-input-bg-light;
+    border: 1px solid $color-input-border-light;
+
+    outline: none;
+    transition: border-color 0.2s ease;
+
+    &::placeholder {
+      color: $color-text-muted-light;
+    }
+
+    &:focus {
+      border-color: $color-primary-dark;
+    }
+  }
+
+  .loginButton {
+    background-color: $color-primary-light;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: $color-primary-dark;
+    }
+  }
+}
+
+.formGroup {
+  position: relative;
+
+  display: flex;
+  flex-grow: 1;
+
+  align-items: center;
+
+  svg {
+    fill: $color-text-muted-light;
+    position: absolute;
+    left: 14px;
+    pointer-events: none;
+  }
+}
+
+.formOptions {
+  display: flex;
+  flex-flow: row nowrap;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 10px;
+
+  font-size: 11px;
+  .formOptionsCheckbox {
+    display: flex;
+    gap: 5px;
+
+    font-size: 14px;
+
+    span {
+      font-weight: 500;
+    }
+  }
+
+  .links {
+    font-weight: 400;
+  }
 }

@@ -1,0 +1,20 @@
+@use "../../variables" as *;
+
+.darkMode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 2px 3px 2px 3px;
+  border-radius: 20px;
+
+  background-color: $color-primary-subtle-light;
+  button {
+    position: relative;
+    bottom: -1px;
+    background-color: transparent;
+    border: none;
+  }
+}
